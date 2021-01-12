@@ -1,0 +1,26 @@
+alias g="git status"
+alias v="~/nvim.appimage"
+alias gaa="git add --all"
+alias f="cd ~/projects/fit-db"
+alias gco="git checkout"
+alias ..="cd .."
+alias ...="cd ../../"
+alias gcm="git commit -m"
+alias gpush="git push"
+alias lsd="ls -alh"
+alias gpull="git pull"
+alias s="cd ~/projects/fit-db/shared-fit-db"
+alias b="cd ~/projects/fit-db/backend-fit-db"
+alias t="cd ~/tensil/lightdesk"
+alias pr='gh pr create --fill'
+
+alias fit="cd ~/projects/fit-db"
+alias start='
+t
+cd web
+./devmac.sh
+xdotool key ctrl+shift+t
+..
+cd backend
+yarn devproxy
+'
