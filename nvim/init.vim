@@ -16,6 +16,7 @@ Plug 'tpope/vim-surround'
 Plug 'ruanyl/vim-gh-line'
 Plug 'sbdchd/neoformat'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'ludovicchabant/vim-gutentags'
 
 call plug#end()
 
