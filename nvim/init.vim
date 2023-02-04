@@ -78,3 +78,4 @@ endfunction
 command! -range GHURL <line1>,<line2> call GHURL()
 map <leader>yl :GHURL<cr>
 map <leader>yb <leader>yl:Open <C-R>u<cr>
+let g:ctrlp_custom_ignore = 'build'
